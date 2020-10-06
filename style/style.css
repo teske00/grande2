@@ -405,6 +405,7 @@ footer .copyright .orange {
 }
 
 .about-part-one .right-part img {
+  width: 100%;
   float: right;
 }
 
