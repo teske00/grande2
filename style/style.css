@@ -14,6 +14,10 @@ body {
   display: none;
 }
 
+.hide-mobile {
+  display: block;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -545,13 +549,11 @@ footer .copyright .orange {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .history .year .title {
   margin: 0;
+  margin-top: 10px;
   margin-right: 20px;
 }
 
@@ -859,9 +861,12 @@ footer .copyright .orange {
   color: #03B8E0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .hide-pc {
     display: block;
+  }
+  .hide-mobile {
+    display: none;
   }
   header {
     -webkit-box-pack: justify;
